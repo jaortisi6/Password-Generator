@@ -1,8 +1,5 @@
 # Password Generator
 
-# Screenshot of site
-![alt text](Screenshot\Password_Generator_Screenshot.PNG)
-
 # Link to site
 [Password Generator](https://jaortisi6.github.io/Password-Generator/)
 
