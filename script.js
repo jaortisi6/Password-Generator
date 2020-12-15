@@ -61,7 +61,7 @@ function generatePassword() {
   // Show prompts for criteria
   getCriteria();
 
-  //keep adding characters based on criteria until pwdLength is = to the length the user set
+  // Adding characters based on criteria until the password equals the desired lenght set by the user
   while (criteria.length < pwdLength) {
     if (lowerCase === false && upperCase === false && numbers === false && specialChar === false) {
       alert("You must select at least one criteria of lowercase, uppercase, numbers or special characters");
