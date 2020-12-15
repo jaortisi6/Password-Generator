@@ -4,6 +4,8 @@
 [Password Generator](https://jaortisi6.github.io/Password-Generator/)
 
 ## Assignment
+When the user clicks the "Generate Password" button, the site prompts the user for the necessary criteria and builds the password accordingly. They can select the length of the password between 8 and 128 characters and can choose to include upper case characters, lower case characters, numbers, and/or symbols.
+
 This password generator was created using JavaScript to meet the following criteria:
 
 GIVEN I need a new, secure password
@@ -21,5 +23,3 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
-
-When the user clicks the "Generate Password" button, the site prompts the user for the necessary criteria and builds the password accordingly. They can select the length of the password between 8 and 128 characters and can choose to include upper case characters, lower case characters, numbers, and/or symbols.

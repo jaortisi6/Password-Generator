@@ -69,22 +69,22 @@ function generatePassword() {
     }
     else {
       if (lowerCase === true && criteria.length < pwdLength) {
-        var lower = criteria.lowerCase[Math.floor(Math.random() * 26)]
+        var lower = criteria.lowerCase[Math.floor(Math.random() * 26)];
         pwdReturn = pwdReturn + lower;
         criteria.length++;
       }
       if (specialChar === true && criteria.length < pwdLength) {
-        var special = criteria.specialCharacter[Math.floor(Math.random() * 32)]
+        var special = criteria.specialCharacter[Math.floor(Math.random() * 32)];
         pwdReturn = pwdReturn + special;
         criteria.length++;
       }
       if (numbers === true && criteria.length < pwdLength) {
-        var num = criteria.number[Math.floor(Math.random() * 10)]
+        var num = criteria.number[Math.floor(Math.random() * 10)];
         pwdReturn = pwdReturn + num;
         criteria.length++;
       }
       if (upperCase === true && criteria.length < pwdLength) {
-        var upper = criteria.upperCase[Math.floor(Math.random() * 26)]
+        var upper = criteria.upperCase[Math.floor(Math.random() * 26)];
         pwdReturn = pwdReturn + upper;
         criteria.length++;
       }
